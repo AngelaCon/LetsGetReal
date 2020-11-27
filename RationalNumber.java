@@ -1,13 +1,10 @@
-public class RationalNumber extends RealNumber {
+public class RationalNumber extends Number {
   private int numerator, denominator;
 
   /**Initialize the RationalNumber with the provided values
   *  if the denominator is 0, make the fraction 0/1 instead
-  *@param nume the numerator
-  *@param deno the denominator
   */
  public RationalNumber(int nume, int deno){
-     super( ((double) nume) / deno);
      numerator = nume;
      denominator = deno;
 
